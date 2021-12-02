@@ -1,0 +1,123 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Comfortaa;
+}
+@media (max-width:480px) {
+    .container{display:flex;flex-direction:column}
+}
+body{
+    background-image: url(img/moutain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 1.5%;
+    padding-bottom: 2%;
+
+}
+footer{
+    display: block;
+    background-color:whitesmoke;
+    color: whitesmoke;
+}
+
+li{
+    list-style-type: none;
+}
+
+.carre{
+    color: orange;
+}
+.container{
+    margin-left: 30%;
+    margin-right: 25%;
+    border: 1px solid;
+    box-shadow: 0px 5px 5px black;
+    background-color:whitesmoke;
+    padding-bottom: 4%;
+}
+.haut{
+    display: flex;
+    padding-top: 5%;
+}
+.img{
+    display: block;
+    width: 100%;
+    block-size:10%;
+}
+.emails {
+    display: flex;
+    text-align: start;
+    flex-direction: row;
+    margin-top: 5%;
+}
+.text{
+    padding-top: 10%;
+    padding-right: 5%;
+    padding-right: 5%;
+    margin: 5%;
+    flex-grow: 1;
+    justify-content: flex-start;
+}
+
+.emails p{
+    padding-left: 20px;
+    padding-right: 2px;
+}
+.Experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.Interet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.Adresse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.Formations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.Competences{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.Skills{
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Bas{
+    display:flex;
+    flex-direction: row-reverse;
+}
+.right{
+    border-left: 2px solid black;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 20px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+
+}
+li{
+    text-align: center;
+}
