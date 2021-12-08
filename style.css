@@ -136,6 +136,10 @@ li{
     color: black;
     margin-left: 10%;
 }
+.aa:hover{
+    color: burlywood;
+
+}
 
 .Titre{
     display: flex;
@@ -151,3 +155,4 @@ h1{
 .Dev{
     font-size:20px;
 }
+
